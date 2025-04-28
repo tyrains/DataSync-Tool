@@ -57,3 +57,9 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details. 
+
+
+## Sponsorship Statement  
+This project is powered by the free VPS program of [VTEXS](https://vtexs.com/opensource)' open-source initiative.  
+Thanks to VTEXS for their support of the open-source community.
+
