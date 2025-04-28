@@ -1,0 +1,12 @@
+sync:
+  source:
+    type: "aws_s3"
+    bucket: "my-source-bucket"
+    path: "/data"
+    region: "us-east-1"
+    access_key: "${AWS_ACCESS_KEY_ID}"
+    secret_key: "${AWS_SECRET_ACCESS_KEY}"
+  destination:
+    type: "local"
+    path: "/backup/data"
+  schedule: "0 0 * * *"  # Daily at midnight 
